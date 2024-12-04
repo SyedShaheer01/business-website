@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&family=Roboto:wght@100&display=swap');
+
 * {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,6 +10,7 @@
   body {
     font-family: sans-serif;
     line-height: 1.6;
+    
   }
   
   /* Navbar Styling */
@@ -97,7 +101,13 @@
   
   .hero-content h1 {
     font-size: 3.2rem;
-    font-weight: 500;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+
+  }
+  .open-sans-{
+    font-family: "Open Sans", sans-serif;
+    
   }
   
   .hero-content p {
@@ -217,6 +227,12 @@ td:nth-child(4) {
     text-align: center;
 }
 
+.contact-img img{
+  width: 100%;
+  margin-top: 40px;
+  
+}
+
 @media (max-width: 600px) {
     .container {
         padding: 10px;
@@ -227,7 +243,7 @@ td:nth-child(4) {
         padding: 8px;
     }
     table{
-      margin-bottom: 200px;
+      /* margin-bottom: 200px; */
       margin-top: 40px;
     }
     .business-hours h2{
@@ -265,6 +281,9 @@ td:nth-child(4) {
   font-size: 2.3rem;
   color: white;
   margin-bottom: 20px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+
 }
 
 .growth-description {
@@ -336,6 +355,7 @@ td:nth-child(4) {
   .growth-btn {
     font-size: 0.9rem;
   }
+  
 }
 
 
@@ -578,9 +598,7 @@ td:nth-child(4) {
 }
 
 .about-right {
-  /* width: 90%; */
-  /* max-width: 600px; */
-  /* align-self: flex-end; Pushes the block to the right */
+  
   text-align: start;
   margin-bottom: 120px;
   display: flex;
@@ -589,40 +607,54 @@ td:nth-child(4) {
 
 .about-left {
 
-  max-width: 1200px;
-  gap: 80px;
-  text-align: left;
-  align-self: flex-start; 
   display: flex;
+  gap: 80px;
   margin-bottom: 120px;
 }
 
 .about-title {
   color: #259a5c;
   font-size: 1.5rem;
+  margin-bottom: px;
+}
+.about-title2 {
+  color: #259a5c;
   margin-bottom: 10px;
 }
 
 .about-text {
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #333;
   line-height: 1.4rem;
   text-align: start;
   
 }
+.about-left img{
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.right-img img{
+  width: 280px;
+  height: 300px;
+  border-radius: 10px;
+}
 
 @media (max-width: 768px) {
+  .about-text {
+    font-size: 0.8rem;
+
+  }
   .about-container {
     flex-direction: column; 
     align-items: center;
-    padding: 20px 40px;
     justify-content: center;
     margin: auto;
   }
   
  .about-left{
-  text-align: start;
-  align-self: flex-start;
+  
   margin-bottom: 120px;
   flex-direction: column;
  }

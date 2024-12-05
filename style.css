@@ -113,6 +113,7 @@
   
   .hero-content p {
     font-size: 1.3em;
+    max-width: 700px;
   }
   
   /* Responsive Design */
@@ -149,6 +150,7 @@
       
       .hero-content p {
         font-size: 1rem;
+        
         line-height: 1.5rem;
         margin-top: 20px;
       }
@@ -268,8 +270,7 @@ td:nth-child(4) {
 }
 
 .growth-text {
-  /* flex: 1;
-  max-width: 500px; */
+
   margin-top: 10%;
 }
 /* .all-text{
@@ -342,6 +343,9 @@ td:nth-child(4) {
     max-width: 100%;
     margin: 10px;
   }
+  .growth-text {
+    padding: 10px;
+  }
 
   .growth-title {
     font-size: 2rem;
@@ -349,7 +353,7 @@ td:nth-child(4) {
   }
 
   .growth-description {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   .growth-btn {
@@ -557,6 +561,7 @@ td:nth-child(4) {
   }
   .social-icons a {
   margin-left: -5px;
+  font-size: 14px;
   }
   .about-btn {
     font-size: 0.9em;
@@ -587,6 +592,7 @@ td:nth-child(4) {
 }
 .service-head p{
   font-size: 20px;
+  max-width: 600px;
 }
 
 
@@ -627,6 +633,7 @@ td:nth-child(4) {
   color: #333;
   line-height: 1.4rem;
   text-align: start;
+  max-width: 800px;
   
 }
 .about-left img{
@@ -672,6 +679,10 @@ td:nth-child(4) {
   width: 300px;
   height: 350px;
 
+ }
+ .service-head p{
+  padding-right: 10px;
+  /* max-width: 300px !important; */
  }
   
 }

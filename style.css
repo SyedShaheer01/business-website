@@ -474,7 +474,6 @@ td:nth-child(4) {
   border: 2px solid white;
   border-radius: 5px;
   cursor: pointer;
-  text-transform: uppercase;
   font-weight: bold;
 }
 .about-btn a{
